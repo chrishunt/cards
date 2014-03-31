@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>Playing Cards</title>
+  <meta name='viewport'
+        content='user-scalable=no,
+                 width=device-width,
+                 initial-scale=1,
+                 maximum-scale=1'>
+  <link href='css/normalize.css' rel='stylesheet' type='text/css'>
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class='container'>
+    <ul>
+      <li><code><b>n</b></code> new</li>
+      <li><code><b>j</b></code> next</li>
+      <li><code><b>k</b></code> previous</li>
+    </ul>
+
+    <div class='main'>
+      <img id='card' src='cards/back.png'>
+      <div id='progress'></div>
+      <div id='timer'></div>
+    </div>
+  </div>
+
+  <script type='text/javascript' src='js/hammer.min.js'></script>
+  <script type='text/javascript' src='js/deck.js'></script>
+  <script type='text/javascript' src='js/timer.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>

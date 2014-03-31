@@ -1,0 +1,53 @@
+ul {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container, .main, img, #timer {
+  width: 300px;
+}
+
+#progress {
+  display: block;
+  background: #cdf;
+  height: 10px;
+}
+
+#progress.complete {
+  background: #cfc;
+}
+
+#timer {
+  font-family: monospace;
+  font-size: 40px;
+  color: #eee;
+  margin-top: 10px;
+}
+
+#timer.stopped {
+  color: #000;
+}
+
+@media (min-width: 500px) {
+  ul {
+    font-size: 14px;
+    padding: 5px 0 0 0;
+    margin: 0px;
+    display: block;
+    float: right;
+    text-align: left;
+    list-style: none;
+  }
+
+  .container {
+    width: 450px;
+  }
+
+  .main, img, #timer {
+    width: 350px;
+  }
+}
