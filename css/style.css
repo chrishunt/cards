@@ -11,10 +11,15 @@ ul {
   width: 300px;
 }
 
+.preload {
+  display: none;
+}
+
 #progress {
   display: block;
   background: #cdf;
   height: 10px;
+  width: 0%;
 }
 
 #progress.complete {
