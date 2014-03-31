@@ -37,6 +37,10 @@ ul {
   color: #000;
 }
 
+code {
+  background: #eee;
+}
+
 @media (min-width: 500px) {
   ul {
     font-size: 14px;
