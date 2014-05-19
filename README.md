@@ -7,7 +7,7 @@ Practice makes perfect and perfect makes an awesome party! Use this app to
 sharpen your memory skills. Never drop a *real* playing card on the floor ever
 again.
 
-![](img/demo.gif)
+![](https://raw.githubusercontent.com/chrishunt/cards/gh-pages/img/demo.gif)
 
 ## Usage
 
